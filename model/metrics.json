@@ -1,0 +1,36 @@
+{
+  "results": {
+    "LinearRegression": {
+      "cv_r2_mean": 0.9041,
+      "cv_r2_std": 0.0255,
+      "test_r2": 0.9028,
+      "test_rmse": 1.783,
+      "test_mae": 1.382
+    },
+    "Lasso(alpha=0.1)": {
+      "cv_r2_mean": 0.9059,
+      "cv_r2_std": 0.0255,
+      "test_r2": 0.9131,
+      "test_rmse": 1.685,
+      "test_mae": 1.331
+    },
+    "LassoCV": {
+      "cv_r2_mean": 0.9065,
+      "cv_r2_std": 0.0256,
+      "test_r2": 0.9052,
+      "test_rmse": 1.761,
+      "test_mae": 1.37,
+      "chosen_alpha": 0.0223
+    }
+  },
+  "best_model": "Lasso(alpha=0.1)",
+  "features": [
+    "RH",
+    "Ws",
+    "Rain",
+    "FFMC",
+    "DMC",
+    "DC",
+    "ISI"
+  ]
+}
